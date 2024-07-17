@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-collapse: collapse; 
+
+}
+
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn0 {
+    width: 18vw;
+}
+
+#output {
+    width: 42vw;
+    color: aliceblue;
+    text-align: right;
+    font-size: 7.5vw;
+}
+
+button[class*=btn_digit] {
+    color: blueviolet;
+}
+.calculator{
+    background-color: black;
+
+    display: flex; 
+    margin-top: 2.5vw;
+    width: 42vw;
+    height: 63vw;
+    margin-bottom: 10vw;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.btn{
+    width: 7.5vw;
+    height: 7.5vw;
+    font-size: 2vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    
+}
